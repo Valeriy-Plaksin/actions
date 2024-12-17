@@ -6,7 +6,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: list files
-        run: ls -a 
+        run: lsrerre -a 
       - name: copy files
         run: |
             git init
