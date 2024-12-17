@@ -1,0 +1,11 @@
+name: 3workflow
+on: push
+
+jobs:
+  run-first-command:
+    runs-on: ubuntu-latest
+    steps:
+      - name: command in multiline
+        run: |
+          pwd
+          ls -a 
