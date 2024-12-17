@@ -2,8 +2,8 @@ name: 4workflow
 on: 
   workflow_run:
     workflows: [3workflow]
-  types: 
-    - completed
+    types: 
+      - completed
 
 jobs:
   hello-command:
